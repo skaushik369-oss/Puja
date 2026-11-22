@@ -58,3 +58,11 @@ Or open the folder in Android Studio and press Run.
 
 Every push builds the APK on GitHub Actions (`.github/workflows/build-apk.yml`); pushes to `main`
 also publish it as the `latest` release.
+
+## iPhone / web version
+
+A web version of the same app lives in [`web/`](web/) (plain HTML/JS, no build step). Open the
+hosted link in **Safari**, tap **Share → Add to Home Screen**, and it appears with the Mantra Jaap
+icon and opens full screen. It uses the phone's Hindi voice (iPhone: Settings → Accessibility →
+Spoken Content → Voices → Hindi). Keep the screen on while chanting; iOS may pause speech when the
+phone locks.
