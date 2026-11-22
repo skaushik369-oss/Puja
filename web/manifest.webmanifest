@@ -1,0 +1,10 @@
+{
+  "name": "Mantra Jaap",
+  "short_name": "Mantra Jaap",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFF8F0",
+  "theme_color": "#B5520C",
+  "icons": [{"src": "icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any"}]
+}

@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.MantraJaap" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#FFF8F0</item>
+        <item name="android:statusBarColor">#B5520C</item>
+    </style>
+</resources>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mantra Jaap</title>
+<meta name="theme-color" content="#B5520C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mantra Jaap">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Mantra Jaap</h1>
+  <label for="sel">Select mantra</label>
+  <select id="sel"></select>
+
+  <section class="counter">
+    <div id="count">0 / 108</div>
+    <progress id="bar" max="108" value="0"></progress>
+    <div id="status">Press Play to begin</div>
+    <div id="note"></div>
+  </section>
+
+  <div class="row">
+    <button id="play" class="primary">▶ Play</button>
+    <button id="stop" disabled>■ Stop</button>
+  </div>
+
+  <div class="row speed">
+    <span id="speedlabel">Speed 1.0×</span>
+    <input id="speed" type="range" min="0.5" max="1.5" step="0.1" value="1">
+  </div>
+
+  <div id="warn" hidden></div>
+
+  <section id="text" tabindex="0"></section>
+</main>
+<script src="mantras.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
